@@ -1,13 +1,16 @@
-# Estudos Robótica Móvel - Anotações
+# Robótica Móvel
 
 
 ## Aula 01 - Introdução e Conceitos Gerais
 
 Alguns conceitos importantes para conhecer antes de aprofundar-se na robótica:
 
-- A história da robótica > [Intro. à Robótica - História - UFMG](https://homepages.dcc.ufmg.br/~doug/cursos/lib/exe/fetch.php?media=cursos:introrobotica:2017-1:aula2-historia.pdf), [Vídeo sobre a história da robótica](https://www.youtube.com/watch?v=8jV0JADp7Vs)
-- Sensores > [Sensores e Atuadores](https://www.feis.unesp.br/Home/departamentos/engenhariaeletrica/aula-5---sensor-25-04-2013b.pdf)
-- Meios de locomoção > [Intro. à Robótica - Locomoção - UFMG](https://homepages.dcc.ufmg.br/~doug/cursos/lib/exe/fetch.php?media=cursos:introrobotica:2019-1:aula13-locomocao.pdf)
+- A história da robótica 
+    > [Intro. à Robótica - História - UFMG](https://homepages.dcc.ufmg.br/~doug/cursos/lib/exe/fetch.php?media=cursos:introrobotica:2017-1:aula2-historia.pdf), [Vídeo sobre a história da robótica](https://www.youtube.com/watch?v=8jV0JADp7Vs)
+- Sensores 
+    > [Sensores e Atuadores](https://www.feis.unesp.br/Home/departamentos/engenhariaeletrica/aula-5---sensor-25-04-2013b.pdf)
+- Meios de locomoção 
+    > [Intro. à Robótica - Locomoção - UFMG](https://homepages.dcc.ufmg.br/~doug/cursos/lib/exe/fetch.php?media=cursos:introrobotica:2019-1:aula13-locomocao.pdf)
 
 ## Aula 02 - Transformações Homogêneas
 
@@ -32,7 +35,7 @@ em relação ao frame inercial (ex.: em uma sala, escolher um dos seus cantos co
 - Movimentação: rodas esquerda e direita ($$\omega_r$$ - velocidade angular direita e $$\omega_l$$ - velocidade angular esquerda); distância entre os eixos das rodas; raio das rodas; orientação do robô em relação ao frame inercial (através de relações matemáticas ou sensores, como a bússola)
 - Como o robô é um corpo rígido, podemos resumí-lo em um único ponto, o ponto médio (ponto equidistante a todos os lados)
 - Esse ponto pode ter duas propriedades: Translação (com uma velocidade liner no eixo x) e Rotação (com uma velocidade angular no eixo y)
-- Relação entre velocidade linear e angular: $$v=R$$ x $$\omega$$. Sendo R o raio da roda
+- Relação entre velocidade linear e angular: $$v=R \times \omega$$. Sendo R o raio da roda
 - Obtendo a velocidade linear: 
     $$v_l=r\phi_l$$ e $$v_r=r\phi_r$$
     Cada roda contribui com **metade** da velocidade linear do ponto médio:
